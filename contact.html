@@ -1,0 +1,202 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>suicide helpline</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="container">
+            <h1><u>Connect With Us</u></h1>
+            <p><i>SURROUND YOURSELF WITH SUPPORTIVE PEOPLE . NEVER LOSE , EITHER WIN OR LEARN.</i></p>
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3><b>Sent your Question</b></h3><br>
+                    <form>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <lable>Name</lable>
+                                <input type="text" placeholder="Your Name">
+                            </div>
+                            <div class="input-group">
+                                <lable>Phone</lable>
+                                <input type="text" placeholder="Mobile Number">
+                            </div>
+                        </div>
+                            <div class="input-row">
+                                <div class="input-group">
+                                    <lable>Email</lable>
+                                    <input type="email" placeholder="abcd@gmail.com">
+                                </div>
+                                <div class="input-group">
+                                    <lable>Subject</lable>
+                                    <input type="text" placeholder="your Question">
+                                </div>
+                        </div>
+                        <label>Message</label>
+                        <textarea row="8" placeholder="Your experience"></textarea>
+                         <button type="submit">Sent Your Question</button>
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <h3><b>Reach us</b></h3>
+                <hr>
+                    <table>
+                        <tr>
+                        <td>Email</td>
+                        <td>wesupportu@gmail.org<br> </td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>+1-800-273-8255<br>+1-801-786-3452</td>
+                            </tr>
+                            <tr>
+                                <td>Address</td>
+                                <td>Bennett University<br>Plot Nos 8-11,TechZone II,<br> 
+                                    Greater Noida-201310, UP </td>
+                                </tr>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<style>
+    
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(225, 229, 198);
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+
+
+}
+.contact-box{
+    background: aliceblue;
+    display: flex;
+
+
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #09c94c ;
+    color: #fff;
+    
+}
+h1{
+    margin-bottom: 10px;
+
+}
+.container p{
+    margin-bottom: 40px;
+
+
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+     
+}
+.input-row.input-group{
+    flex-basis: 45px;
+
+}
+input{
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 10px;
+
+}
+lable{
+    margin-bottom: 6px ;
+    display: block;
+    
+}
+
+
+button {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 20px;
+}
+
+button:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+button:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
+.contact-left h3{
+    color: #09c94c;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+
+}
+.contact-right h3{
+    color: aliceblue;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+table{
+    padding-left: 20px;
+    padding-top: 30px;
+    font-style: normal;
+   
+    justify-content: space-between;
+}
+tr td:first-child{
+    width: 50px;
+    padding-right: 40px;
+    justify-content: space-around;
+}
+tr td{
+    width: 50px;
+    padding-right: 0px;
+}
+</style>
