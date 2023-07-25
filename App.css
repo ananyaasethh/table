@@ -1,0 +1,113 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 5px;
+  padding: 5px;
+}
+
+.container {
+  max-width: 100%;
+  padding: 10px;
+}
+
+.close-button {
+ float: right;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #ff3333;
+  color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+  color: #656262;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #333;
+  color: #fff;
+}
+
+thead th {
+  padding: 10px;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.button-container {
+  display: flex;
+  float: right;
+  margin-top: 15px;
+}
+.forward {
+  display: flex;
+  float: left;
+  margin-top: 15px;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+button {
+  margin-left: 5px;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.print-button {
+  background-color: #ff3333;
+  color: #fff;
+  width: 90px;
+}
+
+.view-checklist-button {
+  background-color: #3366ff;
+  color: #fff;
+  width: 190px;
+}
+.forward-button{
+  background-color: white;
+  color: #3366ff;
+  float: left;
+}
+.number{
+  color: #3366ff;
+}
+.grey{
+  color: #7b7979;
+}
+
+
+@media screen and (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
